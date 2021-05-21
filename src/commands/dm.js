@@ -24,11 +24,8 @@ module.exports = {
         "avatar_url": "${avatar(interaction.member.user)}"
       }`,
       method: "POST",
-      headers: {
-        "content-type": "application/json;charset=UTF-8"
-      }
+      headers: { "content-type": "application/json;charset=UTF-8" }
     }
-    console.log(`avatar: ${interaction.member.user.avatar}`)
     // send data to webhook
     await fetch(WEBHOOK_URL, newreq)
     return response({
