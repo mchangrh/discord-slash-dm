@@ -25,12 +25,12 @@
   },
   "homepage": "https://github.com/mchangrh/owo-discord-slash#readme",
   "dependencies": {
-    "discord-interactions": "^2.0.2",
-    "slash-commands": "^1.4.0"
+    "discord-interactions": "^2.3.0",
+    "slash-commands": "^1.5.0"
   },
   "devDependencies": {
     "deep-equal": "^2.0.5",
-    "dotenv": "^8.2.0",
-    "webpack": "^5.28.0"
+    "dotenv": "^10.0.0",
+    "webpack": "^5.52.0"
   }
 }
